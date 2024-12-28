@@ -7,6 +7,6 @@ func main(){
 
 	for index,item := range items{
 		// fmt.Printf("Index: %d, Item: %s\n", index, item)
-		fmt.Println("Index:",index,", Item:",item)
+		fmt.Println("Index:",index+", Item:",item)
 	}
 }
